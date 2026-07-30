@@ -56,24 +56,6 @@
 </script>
 </head>
 <body>
-<div id="arush-launch-banner" style="background:linear-gradient(120deg,#2E6BFF,#22D3EE);color:#04050a;text-align:center;padding:.65rem 1rem;font-weight:600;font-size:.9rem;">
-  🚀 Arush Marketplace launches tonight — <span id="alb-timer">counting down…</span> · <a href="https://arush-marketplace.vercel.app" target="_blank" rel="noopener" style="color:#04050a;text-decoration:underline;">Try it live →</a>
-</div>
-<script>
-(function(){
-  var t = new Date("2026-07-31T00:00:00+05:30").getTime();
-  var el = document.getElementById("alb-timer");
-  function tick(){
-    var d = t - new Date().getTime();
-    if(d<=0){ el.textContent = "IT'S LIVE!"; clearInterval(iv); return; }
-    var h=Math.floor(d/3600000), m=Math.floor((d%3600000)/60000), s=Math.floor((d%60000)/1000);
-    el.textContent = h+"h "+m+"m "+s+"s left";
-  }
-  tick();
-  var iv=setInterval(tick,1000);
-})();
-</script>
-
 
 <nav class="site-nav">
   <div class="wrap">
