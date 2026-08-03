@@ -1366,3 +1366,97 @@ footer {
   font-weight: 600;
   color: var(--text);
 }
+
+/* Personal Background & Family — collapsible accordion */
+.family-accordion {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--glass);
+  overflow: hidden;
+}
+
+.family-accordion summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.1rem 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text);
+  user-select: none;
+}
+
+.family-accordion summary::-webkit-details-marker { display: none; }
+
+.family-accordion summary .toggle-ic {
+  font-size: 1.1rem;
+  color: var(--accent);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.family-accordion[open] summary .toggle-ic { transform: rotate(45deg); }
+
+.family-accordion .fam-body {
+  padding: 0 1.4rem 1.6rem;
+  border-top: 1px solid var(--border);
+}
+
+.family-intro {
+  color: var(--text-2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 1.2rem 0 1.6rem;
+  max-width: 640px;
+}
+
+.fam-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.6rem;
+}
+
+.fam-group h3 {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 0.7rem;
+}
+
+.fam-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.fam-group li {
+  color: var(--text-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.fam-group li strong {
+  color: var(--text);
+  font-weight: 600;
+  display: block;
+}
+
+.fam-group li .fam-meta {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 640px) {
+  .fam-groups { grid-template-columns: 1fr; gap: 1.2rem; }
+  .family-accordion summary { padding: 1rem 1.1rem; font-size: 0.95rem; }
+  .family-accordion .fam-body { padding: 0 1.1rem 1.3rem; }
+}
