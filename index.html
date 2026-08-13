@@ -96,6 +96,7 @@
 <main>
 
 <header class="hero" id="home">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
   <div class="wrap hero-inner">
     <div class="avatar-wrap" data-reveal>
       <div class="avatar-orb">
@@ -183,6 +184,19 @@
       <div class="skill-group">
         <h3>Growth &amp; Docs</h3>
         <span class="tag">n8n</span><span class="tag">Technical Documentation</span><span class="tag">Content Marketing</span><span class="tag">Web Content Creation</span>
+      </div>
+    </div>
+
+    <div class="chart-grid" data-reveal>
+      <div class="chart-card">
+        <h3>Self-rated stack proficiency</h3>
+        <p class="chart-note">My own honest rating, out of 10 — not a benchmark score.</p>
+        <canvas id="skillRadar" height="280"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3>Language mix across my repos</h3>
+        <p class="chart-note" id="langNote">Live from the GitHub API — arushkumar-aiml.</p>
+        <canvas id="langDoughnut" height="280"></canvas>
       </div>
     </div>
   </div>
@@ -558,6 +572,10 @@
   </div>
 </footer>
 
+<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/three-hero.js"></script>
+<script src="js/charts.js"></script>
 </body>
 </html>
