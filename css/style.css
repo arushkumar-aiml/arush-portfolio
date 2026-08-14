@@ -5,7 +5,7 @@
    glassmorphic cards, marquee, pill buttons, grid overlay)
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
   --bg: #000000;
@@ -39,7 +39,6 @@
   --font-body: 'Inter', sans-serif;
   --font-shine: 'Poppins', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --font-serif: 'Fraunces', 'Georgia', serif;
 }
 
 * {
@@ -431,49 +430,6 @@ nav.site-nav .wrap {
   padding-bottom: 4.5rem;
 }
 
-#hero-canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  opacity: 0.85;
-  pointer-events: none;
-}
-
-.chart-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  margin-top: 2.5rem;
-}
-
-.chart-card {
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-lg);
-  padding: 1.75rem;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-}
-
-.chart-card h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: .25rem;
-}
-
-.chart-card .chart-note {
-  font-size: .75rem;
-  color: var(--muted);
-  margin-bottom: 1.25rem;
-  font-family: var(--font-mono);
-}
-
-@media (max-width: 760px) {
-  .chart-grid { grid-template-columns: 1fr; }
-}
-
 .hero .badge-pill {
   display: inline-flex;
   align-items: center;
@@ -725,15 +681,13 @@ nav.site-nav .wrap {
 }
 
 .p-card {
-  background: var(--glass);
+  background: rgba(18, 21, 32, 0.82);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.85rem;
   display: flex;
   flex-direction: column;
   position: relative;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   transition: border-color .25s, transform .25s, box-shadow .25s;
 }
 
@@ -1434,171 +1388,4 @@ footer {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-/* ============================================================
-   JOURNAL / BLOG — editorial layer
-   Serif display headlines on the same dark-glass system, tied
-   together with a signature accent rule-and-dot divider.
-   ============================================================ */
-
-.rule-dot {
-  display: flex;
-  align-items: center;
-  gap: .6rem;
-  margin: 0 auto 2.5rem;
-  width: fit-content;
-}
-.rule-dot::before,
-.rule-dot::after {
-  content: "";
-  width: 40px;
-  height: 1px;
-  background: var(--border-strong);
-}
-.rule-dot span {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.35rem;
-}
-@media (max-width:920px) { .blog-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width:640px) { .blog-grid { grid-template-columns: 1fr; } }
-
-.blog-card {
-  background: var(--glass);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 1.85rem;
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  color: inherit;
-  transition: border-color .25s, transform .25s, box-shadow .25s;
-}
-.blog-card:hover {
-  border-color: var(--border-strong);
-  transform: translateY(-4px);
-  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, .6);
-}
-.blog-card .b-cat {
-  font-family: var(--font-mono);
-  font-size: .65rem;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: .9rem;
-}
-.blog-card h3 {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-style: italic;
-  font-size: 1.35rem;
-  line-height: 1.25;
-  text-transform: none;
-  margin-bottom: .75rem;
-  color: var(--text);
-}
-.blog-card p.desc {
-  font-size: .87rem;
-  color: var(--text-2);
-  flex: 1;
-  margin-bottom: 1.15rem;
-}
-.blog-card .b-meta {
-  font-family: var(--font-mono);
-  font-size: .68rem;
-  color: var(--muted);
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid var(--border);
-  padding-top: .9rem;
-}
-
-/* ---- article page ---- */
-.post-hero {
-  padding: 7rem 0 3rem;
-  text-align: center;
-}
-.post-hero .b-cat { text-align:center; }
-.post-hero h1 {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 600;
-  font-size: clamp(2rem, 5.5vw, 3.4rem);
-  line-height: 1.15;
-  max-width: 780px;
-  margin: 0 auto 1.4rem;
-  text-transform: none;
-  letter-spacing: 0;
-}
-.post-meta {
-  font-family: var(--font-mono);
-  font-size: .75rem;
-  color: var(--muted);
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.article-body {
-  max-width: 680px;
-  margin: 0 auto;
-  padding-bottom: 2rem;
-}
-.article-body p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: var(--text-2);
-  margin-bottom: 1.4rem;
-}
-.article-body h2 {
-  font-family: var(--font-serif);
-  font-weight: 600;
-  font-size: 1.6rem;
-  color: var(--text);
-  margin: 2.6rem 0 1rem;
-  text-transform: none;
-}
-.article-body ul {
-  margin: 0 0 1.4rem 1.2rem;
-  color: var(--text-2);
-}
-.article-body li { margin-bottom: .55rem; line-height: 1.7; }
-.article-body strong { color: var(--text); }
-.article-body blockquote {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 1.3rem;
-  line-height: 1.5;
-  color: var(--text);
-  border-left: 2px solid var(--accent);
-  padding: .2rem 0 .2rem 1.5rem;
-  margin: 2.2rem 0;
-}
-.callout {
-  background: var(--glass);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem 1.75rem;
-  margin: 2.2rem 0;
-  backdrop-filter: blur(12px);
-}
-.callout .b-cat { margin-bottom: .5rem; }
-.callout p { margin-bottom: .5rem; font-size: .95rem; }
-.callout a.link-cta { font-size: .85rem; }
-
-.post-foot {
-  max-width: 680px;
-  margin: 3rem auto 0;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
-  text-align: center;
 }

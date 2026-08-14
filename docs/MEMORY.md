@@ -53,9 +53,3 @@ Python, FastAPI, Next.js, React, TypeScript, Firebase, Tailwind CSS, AI/LLMs, Te
 - Fortune-500 cost-savings comparisons from OfficeOS marketing post (Infosys/TCS/Accenture spend claims) — sales copy, not a verifiable fact
 - GSoC 2026 outcome — Arush is an "aspirant," not confirmed selected; do not upgrade this claim
 - Any GitHub contribution counters/stars — no real numbers supplied; site shows "pending" instead
-
-## Journal / Blog (added Aug 2026)
-Source: arushlabs.vercel.app (live-fetched) for company facts — products, pricing tiers, leadership, honest-labeling policy. Written in Arush Kumar's personal voice for arush-portfolio, cross-linked to matching deep-dive articles on the Arush Labs company blog. Three posts:
-1. building-arush-labs-in-public.html — what's live/in-dev/roadmap, leadership team, no-outsourcing policy
-2. why-im-betting-on-ai-voice-agents.html — voice agent use cases & pricing tiers
-3. from-gsoc-aspirant-to-founder.html — OWASP/C2SI GSoC aspirant work, HACK IITK 2026, Microsoft Hackathon

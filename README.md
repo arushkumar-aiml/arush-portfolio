@@ -17,8 +17,6 @@ arush-portfolio/
 ├── index.html      Single-page site (all sections, anchor nav)
 ├── css/style.css    Design system (shared visual language with Arush Labs, personal copy)
 ├── js/main.js       Nav, scroll-spy, scroll-reveal, "talking avatar" speech bubble
-├── js/three-hero.js 3D neural-network background on the hero (three.js)
-├── js/charts.js     Skill radar + live GitHub language doughnut (Chart.js)
 ├── assets/          Logo / avatar assets
 └── docs/
     ├── MEMORY.md    Real facts used on this site — source of truth, from LinkedIn
