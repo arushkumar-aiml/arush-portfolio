@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const bubble = document.getElementById('speech-text');
   if (bubble) {
     const lines = [
-      'AI Engineer.',
+      'AI/ML Engineer.',
       'Full-Stack Developer.',
-      'Founder, Arush Labs.',
+      'AI Agent Builder.',
       'Open Source Contributor.',
-      'Building AI products in public.'
+      'Building in public.'
     ];
     const orb = document.querySelector('.avatar-orb');
     let li = 0;

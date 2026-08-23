@@ -1,10 +1,9 @@
 # DESIGN — arush-portfolio
 
 ## Direction
-Same premium, dark-mode-only reference points as the Arush Labs company site — Apple (restraint), Linear (glass surfaces, calm motion), Vercel (mono type for data, grid discipline) — but the tone here is personal and first-person, not corporate.
+Premium, dark-mode-only reference points — Apple (restraint), Linear (glass surfaces, calm motion), Vercel (mono type for data, grid discipline) — with a personal, first-person tone.
 
 ## Color tokens
-Reused from the shared design system:
 
 | Token | Hex | Use |
 |---|---|---|
@@ -22,7 +21,7 @@ Reused from the shared design system:
 - Mono: **JetBrains Mono** — eyebrows, tags, dates, the speech-bubble text (gives the "talking" line a terminal/AI-native feel consistent with the owner's actual work)
 
 ## Signature element — the talking avatar
-The hero's defining moment: a circular gradient orb with a soft pulsing ring (CSS `pulse-ring` animation) and five small animated bars beneath it that move like a voice waveform. Above it, a glass speech bubble types out — one line at a time, looping — the real highlights: *AI Engineer. / Full-Stack Developer. / Founder, Arush Labs. / Open Source Contributor. / Building AI products in public.*
+The hero's defining moment: a circular gradient orb with a soft pulsing ring (CSS `pulse-ring` animation) and five small animated bars beneath it that move like a voice waveform. Above it, a glass speech bubble types out — one line at a time, looping — the real highlights: *AI/ML Engineer. / Full-Stack Developer. / AI Agent Builder. / Open Source Contributor. / Building in public.*
 
 This was chosen deliberately over a literal photo/cartoon face:
 - No real photo was supplied, and inventing a likeness isn't appropriate.
@@ -31,13 +30,13 @@ This was chosen deliberately over a literal photo/cartoon face:
 
 ## Layout
 - Single sticky glass nav with scroll-spy active-link highlighting (no page loads).
-- `.section` / `.section-alt` alternation for rhythm, same as the company site.
+- `.section` / `.section-alt` alternation for rhythm.
 - `.p-card` reused for Projects; a distinct `.exp-item` timeline for Experience; `.ach-row` list groups for Achievements — each content type gets its own component rather than forcing everything into one card shape, since a portfolio mixes timeline, list, and card data.
 
 ## Motion
 - Scroll-reveal fades + lifts sections into view (`prefers-reduced-motion` respected).
 - The avatar orb's ring-pulse and voice-bars animate continuously but subtly — the one place motion never stops, since it's the "is this person live/building" signal of the page.
-- Card/button hover lifts, same restrained interaction language as the company site.
+- Card/button hover lifts, restrained interaction language throughout.
 
-## Status badge reuse
-Same `Live` / `Building` (`Active` here) / `Roadmap` / `Coming Soon` badge system as the company site, applied to personal project status instead of product status — keeps a single visual language across both of the owner's sites.
+## Status badges
+`Live` / `Building` (`Active` here) / `Roadmap` / `Coming Soon` badge system, applied to project status.

@@ -1,6 +1,6 @@
 # arush-portfolio
 
-Personal developer portfolio for **Arush Kumar** — AI Engineer, Full-Stack Developer, Open Source Contributor, Founder of Arush Labs. Separate from the Arush Labs company site — this is personal, not company branding.
+Personal developer portfolio for **Arush Kumar** — AI/ML Engineer, Full-Stack Developer, and Open Source Contributor.
 
 Dark theme, blue + cyan, glassmorphism. Single-page, anchor-navigated, static HTML/CSS/JS — no build step.
 
@@ -15,7 +15,7 @@ python3 -m http.server 8000
 ```
 arush-portfolio/
 ├── index.html      Single-page site (all sections, anchor nav)
-├── css/style.css    Design system (shared visual language with Arush Labs, personal copy)
+├── css/style.css    Design system (dark, blue + cyan, glassmorphism)
 ├── js/main.js       Nav, scroll-spy, scroll-reveal, "talking avatar" speech bubble
 ├── assets/          Logo / avatar assets
 └── docs/

@@ -5,7 +5,7 @@ Source: owner's LinkedIn profile (pasted into chat). Treated as ground truth —
 ## Identity
 - Arush Kumar, He/Him
 - Kanpur, Uttar Pradesh, India
-- Founder & CEO at Arush Labs | Building Adeel AI | AI Engineer | Full-Stack Developer | Building AI Products in Public
+- AI/ML Engineer | AI Agents & Generative AI | Full-Stack Developer | Building Intelligent Systems in Public
 
 ## Education
 - B.Tech, Computer Science — Dr. A.P.J. Abdul Kalam Technical University, 2024–2028
@@ -16,11 +16,11 @@ Source: owner's LinkedIn profile (pasted into chat). Treated as ground truth —
 Python, FastAPI, Next.js, React, TypeScript, Firebase, Tailwind CSS, AI/LLMs, TensorFlow, Keras
 
 ## Experience
-1. Founder & CEO — Arush Labs (Self-employed) — Jul 2026–Present, Asia
-2. Campus Ambassador — Techfest, IIT Bombay (Internship) — Jun 2026–Present, Asia
-3. Microsoft Hackathon Participant — Microsoft (Freelance) — May–Jun 2026, Remote
-4. Cybersecurity Hackathon Participant — C3iHub, IIT Kanpur (Freelance) — Apr–May 2026, Asia/Remote — HACK IITK 2026, Cybersecurity Solution Track
-5. Open Source Contributor, GSoC 2026 Aspirant — OWASP® Foundation (Freelance) — Apr–May 2026, Remote
+1. Campus Ambassador — Techfest, IIT Bombay (Internship) — Jun 2026–Present, Asia
+2. Microsoft Hackathon Participant — Microsoft (Freelance) — May–Jun 2026, Remote
+3. Cybersecurity Hackathon Participant — C3iHub, IIT Kanpur (Freelance) — Apr–May 2026, Asia/Remote — HACK IITK 2026, Cybersecurity Solution Track
+4. Open Source Contributor, GSoC 2026 Aspirant — OWASP® Foundation (Freelance) — Apr–May 2026, Remote
+5. Open Source Contributor, GSoC 2026 Aspirant — C2SI (Freelance) — Mar–May 2026, Asia
 
 ## Projects (owned by Arush Kumar)
 - **ThreatShield AI** (Apr 2026–Present) — AI cybersecurity threat detection, real-time anomaly detection on network traffic. Tech: Python, TensorFlow, ML. GitHub: github.com/arushkumar-aiml/ThreatShield_Ai
@@ -43,11 +43,9 @@ Python, FastAPI, Next.js, React, TypeScript, Firebase, Tailwind CSS, AI/LLMs, Te
 ## Links
 - LinkedIn: https://www.linkedin.com/in/arushkumar9983
 - GitHub (personal): https://github.com/arushkumar-aiml
-- GitHub (org): https://github.com/ArushLabs
 - Instagram: https://instagram.com/arushkumar9983
 - X/Twitter: https://x.com/arushkumar9983
-- Old/reference portfolio link (from LinkedIn Experience entry): https://arush-marketplace-portfolio.vercel.app/
-- Email used: hello@arushlabs.com (only known real contact email — company inbox, no separate personal email supplied)
+- Email used: arushkumarsince2007@gmail.com (personal contact email)
 
 ## Explicitly excluded (not verifiable / promotional, not portfolio facts)
 - Fortune-500 cost-savings comparisons from OfficeOS marketing post (Infosys/TCS/Accenture spend claims) — sales copy, not a verifiable fact
