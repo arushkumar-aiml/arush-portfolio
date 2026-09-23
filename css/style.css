@@ -21,15 +21,15 @@
   --text-2: rgba(255, 255, 255, 0.7);
   --muted: rgba(255, 255, 255, 0.45);
 
-  --accent: #ff6a3d;
-  --accent-soft: rgba(255, 106, 61, 0.14);
-  --grad: linear-gradient(120deg, #ffffff 0%, #ff6a3d 100%);
+  --accent: #ff1f3d;
+  --accent-soft: rgba(255, 31, 61, 0.14);
+  --grad: linear-gradient(120deg, #ffffff 0%, #ff1f3d 100%);
 
   --success: #34d399;
   --success-soft: #34d39918;
-  --amber: #ff6a3d;
-  --amber-soft: #ff6a3d1f;
-  --danger: #f87171;
+  --amber: #ff1f3d;
+  --amber-soft: #ff1f3d1f;
+  --danger: #ff1f3d;
 
   --radius-sm: 8px;
   --radius: 16px;
@@ -361,7 +361,7 @@ nav.site-nav .wrap {
   background: var(--accent);
   border-color: var(--accent);
   color: #000;
-  box-shadow: 0 8px 30px -8px rgba(255, 106, 61, .55);
+  box-shadow: 0 8px 30px -8px rgba(255, 31, 61, .55);
 }
 
 .btn-ghost {
@@ -421,7 +421,7 @@ nav.site-nav .wrap {
 .hero::after {
   bottom: -10%;
   right: -12%;
-  background: radial-gradient(circle, rgba(255, 106, 61, .18) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 31, 61, .18) 0%, transparent 70%);
 }
 
 .hero-inner {
@@ -733,7 +733,7 @@ nav.site-nav .wrap {
 .status-building {
   background: var(--amber-soft);
   color: var(--accent);
-  border-color: rgba(255, 106, 61, .35);
+  border-color: rgba(255, 31, 61, .35);
 }
 
 .status-roadmap {
@@ -745,7 +745,7 @@ nav.site-nav .wrap {
 .status-soon {
   background: var(--amber-soft);
   color: var(--accent);
-  border-color: rgba(255, 106, 61, .35);
+  border-color: rgba(255, 31, 61, .35);
 }
 
 .p-card h3 {
@@ -1006,7 +1006,7 @@ footer {
   right: -10%;
   width: 480px;
   height: 480px;
-  background: radial-gradient(circle, rgba(255, 106, 61, .16) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 31, 61, .16) 0%, transparent 70%);
   filter: blur(70px);
 }
 
@@ -1040,7 +1040,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 0 1px rgba(255, 106, 61, .35), 0 0 60px -10px rgba(255, 106, 61, .4);
+  box-shadow: 0 0 0 1px rgba(255, 31, 61, .35), 0 0 60px -10px rgba(255, 31, 61, .4);
 }
 
 .avatar-orb .initials {
@@ -1062,7 +1062,7 @@ footer {
   position: absolute;
   inset: -8px;
   border-radius: 50%;
-  border: 1.5px solid rgba(255, 106, 61, .4);
+  border: 1.5px solid rgba(255, 31, 61, .4);
   animation: pulse-ring 2.2s ease-out infinite;
 }
 
@@ -1083,7 +1083,7 @@ footer {
 }
 
 .avatar-orb.talking {
-  box-shadow: 0 0 0 1px rgba(255, 106, 61, .6), 0 0 80px -6px rgba(255, 106, 61, .65);
+  box-shadow: 0 0 0 1px rgba(255, 31, 61, .6), 0 0 80px -6px rgba(255, 31, 61, .65);
 }
 
 .avatar-bars {
